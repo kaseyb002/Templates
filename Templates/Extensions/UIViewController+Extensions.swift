@@ -158,6 +158,11 @@ extension UIViewController {
     func share(text: String) {
         let activityVC = UIActivityViewController(activityItems: [text],
                                                   applicationActivities: nil)
+        if let popoverController = activityVC.popoverPresentationController {
+            popoverController.sourceView = view
+            popoverController.sourceRect = CGRect(x: view.bounds.midX, y: view.bounds.midY, width: 0, height: 0)
+            popoverController.permittedArrowDirections = []
+        }
         present(activityVC, animated: true)
     }
     
