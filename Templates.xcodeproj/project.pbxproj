@@ -40,7 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		263C7A382402CD6E00A164B1 /* Templates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Templates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263C7A382402CD6E00A164B1 /* Clipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263C7A3B2402CD6E00A164B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263C7A442402CD7100A164B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263C7A472402CD7100A164B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		263C7A392402CD6E00A164B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				263C7A382402CD6E00A164B1 /* Templates.app */,
+				263C7A382402CD6E00A164B1 /* Clipboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 			);
 			name = Templates;
 			productName = Templates;
-			productReference = 263C7A382402CD6E00A164B1 /* Templates.app */;
+			productReference = 263C7A382402CD6E00A164B1 /* Clipboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -437,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F9E934J8Z2;
 				INFOPLIST_FILE = Templates/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -444,8 +445,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseybaughan.Templates;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clipboard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F9E934J8Z2;
 				INFOPLIST_FILE = Templates/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -463,8 +466,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaseybaughan.Templates;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Clipboard;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
